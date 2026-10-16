@@ -1,0 +1,35 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Large datasets — do not upload to GitHub
+dataset/
+processed_dataset/
+**/dataset/
+**/processed_dataset/
+
+# Training outputs and temporary files
+logs/
+tmp/
+temp/
+*.log
+diagnose_out.txt
+diagnose_err.txt
+*_out.txt
+*_err.txt
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,23 @@
+{
+  "model_path": "models/deepfake_detector_v4_fullfakes.keras",
+  "model_ensemble": [
+    "models/deepfake_detector_v4_fullfakes.keras"
+  ],
+  "model_output_order": [
+    "real",
+    "ai_generated",
+    "fake_deepfake"
+  ],
+  "classes": [
+    "real",
+    "ai_generated",
+    "fake_deepfake"
+  ],
+  "class_labels": {
+    "real": "REAL",
+    "ai_generated": "AI-GENERATED",
+    "fake_deepfake": "FAKE-DEEPFAKE"
+  },
+  "seed": 42,
+  "metrics_path": "results/test_metrics.json"
+}
