@@ -1,20 +1,28 @@
-# Python cache files
+# ==============================
+# Python Cache Files
+# ==============================
 __pycache__/
 *.py[cod]
 *.pyo
 
-# Virtual environments
+# ==============================
+# Virtual Environments
+# ==============================
 .venv/
 venv/
 env/
 
-# Large datasets — do not upload to GitHub
+# ==============================
+# Large Datasets
+# ==============================
 dataset/
 processed_dataset/
 **/dataset/
 **/processed_dataset/
 
-# Training outputs and temporary files
+# ==============================
+# Training Outputs and Logs
+# ==============================
 logs/
 tmp/
 temp/
@@ -24,12 +32,33 @@ diagnose_err.txt
 *_out.txt
 *_err.txt
 
-# Local environment and secrets
+# ==============================
+# Environment Variables and Secrets
+# ==============================
 .env
 .env.*
 !.env.example
 
-# Operating system files
+# ==============================
+# Jupyter Notebook Checkpoints
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Operating System Files
+# ==============================
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# ==============================
+# IDE Settings
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Backup Files
+# ==============================
+*.bak
+*.backup
